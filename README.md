@@ -3,7 +3,7 @@ This repository contains NLP projects
 
 PROJECT -01 
 
-CONSUMER COMPLAINT CLASSIFICATION 
+CONSUMER COMPLAINT CLASSIFICATION USING MACHINE LEARNING 
 
 TEXT PRE PROCESSING : LOWER, REMOVED STOP WORD , PUNCTUATION , LEMMATIZATION 
 
@@ -13,7 +13,13 @@ MODEL SELECTION : AMONG LOGISTIC , RANDOM FOREST ,SVM , MULTINOMIAL NAIVE BAYES
 
 TRIED USING BOTH NLTK AND SPACY 
 
-GOT ACCURACY AROUND 80 % USING LINEAR SVC 
+APPROACH 1 :Directly use text as it is with out text preprocessing in TFIDF then use vector in machine learning
+ 
+APPROACH 2 :Text preprocessing using NLTK then TF IDF then machine learning 
+
+APPROACH 3 :Text preprocessing using Spacy then use TFIDF then machine learning 
+
+
 
 
 PROJECT -02:
